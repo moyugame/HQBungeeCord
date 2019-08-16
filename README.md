@@ -1,43 +1,40 @@
-Waterfall [![Build Status](https://papermc.io/ci/job/Waterfall/badge/icon)](https://papermc.io/ci/job/Waterfall/)
+HQBungeeCord [![Build Status](https://papermc.io/ci/job/Waterfall/badge/icon)](https://papermc.io/ci/job/Waterfall/)
 =========
 
-Waterfall is a fork of the well-known [BungeeCord](https://github.com/SpigotMC/BungeeCord) server teleportation suite.
+瀑布是众所周知的 [BungeeCord](https://github.com/SpigotMC/BungeeCord) 服务器远程传输套件的分支。
 
-Waterfall focuses on three main areas:
+HQBungeeCord主要关注三个方面：
 
-- **Stability**: Waterfall aims to be stable. We will achieve this through making the code base testable and discouraging practices that lead to proxy lag.
-- **Features**: Waterfall aims to include more features than canonical BungeeCord.
-- **Scalability**: Waterfall should be able to handle a large number of concurrent players, given a reasonably modern CPU, memory, and good network connection.
+- **稳定性**: HQBungeeCord的目标是稳定。 我们将通过使代码库可测试并阻止导致代理滞后的实践来实现这一目标。
+- **特点**: HQBungeeCord旨在包括比标准Waterfall更多的功能。
+- **可扩展性**: HQBungeeCord应该能够处理大量并发玩家，具有相当现代的CPU，内存和良好的网络连接。
 
-## Why fork BungeeCord?
+## 为什么要分叉Waterfall？
 
-Think of Waterfall as a principles fork.
+将HQBungeeCord视为原则分叉。
 
-Waterfall was forked because of the fact that upstream does not accept many contributions that are intended to better the ecosystem. Simply put, Waterfall aims to better
-the ecosystem by allowing changes to be exposed to a wider audience more quickly.
+HQBungeeCord是分叉的，因为上游不接受许多旨在改善生态系统的贡献。 简而言之，HQBungeeCord旨在通过更快地将更改暴露给更广泛的受众来改善生态系统。
 
-Waterfall will still track upstream BungeeCord and merge changes as needed.
+HQBungeeCord仍将跟踪上游Waterfall并根据需要合并更改。
 
-## How To (Server Admins)
+## 怎么用（服务器管理员）
 
-Download a copy of Waterfall.jar from our buildserver here: [Waterfall](https://papermc.io/ci/job/Waterfall/)
+从我们的构建服务器下载Waterfall.jar的副本: [Waterfall](https://papermc.io/ci/job/Waterfall/)
 
-Waterfall requires **Java 8** or above.
+HQBungeeCord需要** Java 8 **或以上。
 
-## How To (Compiling From Source)
+## 如何（从源代码编译）
 
-To compile Waterfall, you need JDK8, git, bash, maven, and an internet connection.
+要编译HQBungeeCord，您需要JDK8，git，bash，maven和Internet连接。
 
-Clone this repo, run `./waterfall b` from *bash*, get jar from Waterfall-Proxy/bootstrap/target/
+克隆这个repo，从* bash *运行 `./waterfall b`，从 Waterfall-Proxy/bootstrap/target/ 获取jar
 
-## Join us
+## 加入我们
 
-* Feel free to open a PR! We accept contributions.
-* Join us on IRC (irc.spi.gt #paper, [webchat](http://irc.spi.gt/iris/?nick=&channels=paper)).
-* Visit our forums (https://papermc.io/forums).
+* 随意打开公关！ 我们接受捐款。
+* 加入我们的IRC (irc.spi.gt #paper, [webchat](http://irc.spi.gt/iris/?nick=&channels=paper)).
+* 访问我们的论坛 (https://papermc.io/forums).
 
-## Special Thanks To
+## 特别感谢
 
-![YourKit-Logo](https://yourkit.com/images/yklogo.png)
 
-[YourKit](https://yourkit.com/), makers of the outstanding Java profiler, supports open source projects of all kinds with their full-featured [Java](https://yourkit.com/features/) and [.NET](https://yourkit.com/dotnet/features/) application profilers. We thank them for granting Waterfall an OSS license so that we can make our software the best it can be.
